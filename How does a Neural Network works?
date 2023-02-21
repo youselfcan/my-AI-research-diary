@@ -1,0 +1,27 @@
+Okay, it will be hard to explain without using images.
+Lets see what i remember.
+
+Lets say we have 2 input layers and 2 output layers
+
+Name inputs as I1 and I2 and outputs O1 and O2.
+
+I1 and I2 is connected to O1 with weights ( numeralize them too) such as W1.1 and W2.1 and connected to O2 with W1.2 and W2.2.
+
+
+What are weights? Imagine them as [ W(I) = I x w ] so its a multiplier.
+
+so if I1 is 1, and W1.1 is 1, O1 is 1 + W(I2) and if I2 is 3 and W2.1 is -1 O1 will be -2.
+
+Now, lets add a layer.
+
+I1,I2 goes through L1 to O1 and O2.
+
+Like before, it has weights attached to each of the layers.
+
+But this time layer in the middle also have biases [ F(x) = aX^2 + bx - c ]. Bias is C value and each neuron has their own biases.
+
+We have biases, so we can have *neuron activation* 
+
+
+Yeah this part is fucked up, imma revisit the video and make better notes.
+
