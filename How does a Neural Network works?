@@ -1,11 +1,9 @@
-Okay, it will be hard to explain without using images.
-Lets see what i remember.
+We have layers, first layer is always input layer and last layer is always output layer. The layers between them are called "hidden" layers.
+Lets say we have 2 input nodes and 2 output nodes.
 
-Lets say we have 2 input layers and 2 output layers
+Name the input nodes as I1 and I2 and outputs O1 and O2.
 
-Name inputs as I1 and I2 and outputs O1 and O2.
-
-I1 and I2 is connected to O1 with weights ( numeralize them too) such as W1.1 and W2.1 and connected to O2 with W1.2 and W2.2.
+I1 and I2 is connected to O1 with weights ( we name them too as Wx.y (x is start node and y is end node) ) such as W1.1 and W2.1 and connected to O2 with W1.2 and W2.2.
 
 
 What are weights? Imagine them as [ W(I) = I x w ] so its a multiplier.
@@ -25,7 +23,7 @@ We have biases, so we can shift the neurons.
 If F(x) was ax^2+bx then F(0) would be always be 0. We dont want that thats why we have biases.
 
 
-After F(x) we have activation functions. These functions simulate neuron fire.
+After F(x) we have activation functions. These functions simulate neuron fire. (monkey sees action, neuron activation)
 
 Activation(F(x)) 
 
@@ -59,6 +57,9 @@ print("Mean squared error:", mse)
 Good and all, but how do we actually optimize the weight and biases so we have better output?
 
 Time to introduce backpropagation. (https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+
+Backpropagation uses a technique called "gradiant descent" to optimize the weight and biases. Gradiant descant is a formula that utilizes derivatives with goal of finding minimum.
+We can imagine it like a rock rolling down on a hill. Learn rate is the size of unit movement, if its too low, it will be slow. If its too high, it will never make a progress.
 
 
 
