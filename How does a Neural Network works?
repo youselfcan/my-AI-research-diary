@@ -35,4 +35,30 @@ Some common activation functions:
 3-tanH f(x) = (exp(x) - exp(-x)) / (exp(x) + exp(-x)) limited range, -1 and 1
 4-SoftMax f(x) = exp(x) / sum(exp(x)) used for output layer of probability for multi class
 
+Then we move onto Loss functions (A.K.A. cost function or error function), Loss functions are the functions that give us the difference between "desired" output and the output the current algorithm gives. We would want to decrease the value of loss function, each generation so the algorithm is optimized for our usage.
+
+Here are some loss functions:
+Mean Squared Error (MSE) ( This is commonly used for regression problems, where the goal is predicting a continious value.  It measures the average of the squared differences between the predicted and true values)
+Binary Cross-Entropy ( this is commonly used for binary classification problems (0 or 1) )
+Categorical Cross-Entropy (This is commonly used for multi-class classification problems)
+Mean Absolute Error (This is commonly used for regression problems, It measures the average of the absolute differences between the predicted and true values)
+
+```
+import numpy as np
+
+# define the true and predicted values
+y_true = np.array([1.0, 2.0, 3.0, 4.0])
+y_pred = np.array([1.2, 2.3, 3.1, 3.9])
+
+# calculate the mean squared error
+mse = np.mean((y_pred - y_true) ** 2)
+
+print("Mean squared error:", mse)
+```
+
+Good and all, but how do we actually optimize the weight and biases so we have better output?
+
+Time to introduce backpropagation. (https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+
+
 
