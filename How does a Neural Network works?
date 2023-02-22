@@ -20,8 +20,19 @@ Like before, it has weights attached to each of the layers.
 
 But this time layer in the middle also have biases [ F(x) = aX^2 + bx - c ]. Bias is C value and each neuron has their own biases.
 
-We have biases, so we can have *neuron activation* 
+We have biases, so we can shift the neurons.
+
+If F(x) was ax^2+bx then F(0) would be always be 0. We dont want that thats why we have biases.
 
 
-Yeah this part is fucked up, imma revisit the video and make better notes.
+After F(x) we have activation functions. These functions simulate neuron fire.
+
+Activation(F(x)) 
+
+Some common activation functions:
+1-sigmoid = f(x) = 1 / (1 + exp(-x)), used for binary classification 
+2-ReLU = f(x) = max(0,x) used for deep learning
+3-tanH f(x) = (exp(x) - exp(-x)) / (exp(x) + exp(-x)) limited range, -1 and 1
+4-SoftMax f(x) = exp(x) / sum(exp(x)) used for output layer of probability for multi class
+
 
