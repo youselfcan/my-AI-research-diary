@@ -7,9 +7,22 @@ Text, image, voice recognizing AI. Also planning to make an AI specifically to r
 
 3-Resource links:
 Probably youtube, GPT, HuggingFace and maybe some other stuff. No paid services I will use.
+good links:
+https://youtu.be/hfMk-kjRv4c
 
-https://youtu.be/mozBidd58VQ ( Good, but i feel like i am missing important stuff to learn. Probably not best to start with)
+https://youtu.be/aircAruvnKk 
 
-https://youtu.be/hfMk-kjRv4c ( S tier, really good. )
 
-https://youtu.be/aircAruvnKk S tier
+4- Learning models:
+a-Supervised learning: Model gets trained through a labeled dataset. 
+b-Unsupervised learning: Model gets trained through an unlabeled dataset. 
+c-Semi-supervised learning: Model gets trained through both labeled and unlabeled dataset.
+d-Reinforcement learning: Model gets trained through simulating the test environment, no datasets. I like this approach because its easier to make more custom models. 
+e-Transfer learning: Model is trained on one task, but its transferred to another.
+
+
+
+5-Neural Network types
+https://www.youtube.com/watch?v=u7obuspdQu4&ab_channel=LearnwithWhiteboard ()
+a-CNN
+b-RNN
